@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aigen-mod",
+	"version": "${version}",
+	"name": "Aigen Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://google.com/",
+		"sources": "https://github.com/SirBlueAxolotl/ai-generated-mobs"
+	},
+	"license": "MIT",
+	"icon": "assets/aigen-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sba.aigenmod.AigenMod"
+		],
+		"fabric-datagen": [
+			"net.sba.aigenmod.AigenModDataGenerator"
+		],
+		"client": [
+			"net.sba.aigenmod.AigenModClient"
+		]
+	},
+	"mixins": [
+		"aigen-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
