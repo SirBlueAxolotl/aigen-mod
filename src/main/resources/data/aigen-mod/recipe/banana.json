@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catergory": "food_and_drink",
+  "ingredients": [
+    {
+      "item": "aigen-mod:banana_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "aigen-mod:banana"
+  }
+}

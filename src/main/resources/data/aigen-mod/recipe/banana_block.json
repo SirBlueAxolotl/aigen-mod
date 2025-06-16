@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catergory": "misc",
+  "key": {
+    "#": {
+      "item": "aigen-mod:banana"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aigen-mod:banana_block"
+  }
+}

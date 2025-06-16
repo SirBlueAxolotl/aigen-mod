@@ -15,7 +15,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block BANANA_BLOCK = registerBlock("banana_block",
             new Block(AbstractBlock.Settings.create().strength(2f)
-                    .requiresTool().sounds(BlockSoundGroup.SLIME)));
+                    .sounds(BlockSoundGroup.SLIME)));
+
 
 
 
