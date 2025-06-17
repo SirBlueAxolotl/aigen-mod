@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BANANA);
                         entries.add(ModBlocks.BANANA_BLOCK);
 
+                        entries.add(ModItems.JAWQ_SPAWN_EGG);
                     }).build());
 
     public static void registerItemGroups() {
