@@ -102,7 +102,7 @@ public class JawqModel<T extends JawqEntity> extends SinglePartEntityModel<T> {
         this.getPart().traverse().forEach(ModelPart::resetTransform);
         this.setHeadAngles(netHeadYaw, headPitch);
 
-        this.animateMovement(JawqAnimations.ANIM_JAWQ_WALK, limbSwing, limbSwingAmount, 0.1f, 0.125f);
+        this.animateMovement(JawqAnimations.ANIM_JAWQ_WALK, limbSwing, limbSwingAmount, 2f, 0.125f);
         this.updateAnimation(entity.idleAnimationState, JawqAnimations.ANIM_JAWQ_IDLE, ageInTicks, 1f);
     }
 
