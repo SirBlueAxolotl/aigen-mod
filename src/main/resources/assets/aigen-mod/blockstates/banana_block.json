@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aigen-mod:block/banana_block"
+    }
+  }
+}
